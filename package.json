@@ -1,0 +1,20 @@
+{
+  "name": "node_js",
+  "version": "1.0.0",
+  "description": "testing apis",
+  "main": "server.js",
+  "scripts": {
+    
+    "start" : "node server.js",
+    "server":"nodemon server.js"
+  },
+  "author": "praveen",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
